@@ -1,2 +1,286 @@
-# studyWithAdamiOS10Book
-Code I write during my live broadcasts studying the Programming iOS 10: Dive Deep into Views, View Controllers, and Frameworks book
+# STUDY iOS w/ Adam
+I'm live streaming my studying of StackOverflow's list of 'iOS Documentation' topics. M-F 8pm EST. Feel free to come join me. Code samples here as well as topics covered below.
+
+-	[ ]	Getting started with iOS
+-	[ ]	UILabel
+-	[ ]	Auto Layout
+-	[ ]	Passing Data between View Controllers
+-	[ ]	UIColor
+-	[ ]	UIView
+-	[ ]	Custom UIViews from XIB files
+-	[ ]	UITableView
+-	[ ]	Push Notifications
+-	[ ]	UIImageView
+-	[ ]	UIAlertController
+-	[ ]	UILocalNotification
+-	[ ]	MVP Architecture
+-	[ ]	UICollectionView
+-	[ ]	UIImage
+-	[ ]	Change Status Bar Color
+-	[ ]	XCTest framework - Unit Testing
+-	[ ]	UIBezierPath
+-	[ ]	UIWebView
+-	[ ]	UIScrollView
+-	[ ]	NSDate
+-	[ ]	UIStackView
+-	[ ]	NSNotificationCenter
+-	[ ]	CAAnimation
+-	[ ]	GCD (Grand Central Dispatch)
+-	[ ]	Universal Links
+-	[ ]	CAGradientLayer
+-	[ ]	Debugging Crashes
+-	[ ]	Fastlane
+-	[ ]	UITextField
+-	[ ]	Xcode Build & Archive From Command Line
+-	[ ]	UITabBarController
+-	[ ]	Core Location
+-	[ ]	3D Touch
+-	[ ]	NSUserDefaults
+-	[ ]	UIGestureRecognizer
+-	[ ]	Background Modes
+-	[ ]	Accessibility
+-	[ ]	ARC (Automatic Reference Counting)
+-	[ ]	NSTimer
+-	[ ]	CALayer
+-	[ ]	Managing the Keyboard
+-	[ ]	iOS 10 Speech Recognition API
+-	[ ]	App Transport Security (ATS)
+-	[ ]	Alamofire
+-	[ ]	Guideline to choose best iOS Architecture Patterns
+-	[ ]	SiriKit
+-	[ ]	Keychain
+-	[ ]	MKMapView
+-	[ ]	Face Detection Using CoreImage/OpenCV
+-	[ ]	AppDelegate
+-	[ ]	MVVM
+-	[ ]	Core Graphics
+-	[ ]	NSAttributedString
+-	[ ]	UINavigationController
+-	[ ]	UISearchController
+-	[ ]	Checking iOS version
+-	[ ]	PDF Creation in iOS
+-	[ ]	UITextView
+-	[ ]	Custom fonts
+-	[ ]	Safari Services
+-	[ ]	UIPickerView
+-	[ ]	CAShapeLayer
+-	[ ]	UIDevice
+-	[ ]	GameplayKit
+-	[ ]	Handling URL Schemes
+-	[ ]	UIAppearance
+-	[ ]	Key Value Coding-Key Value Observation
+-	[ ]	NSURLSession
+-	[ ]	UIPageViewController
+-	[ ]	Dynamic Type
+-	[ ]	UISwitch
+-	[ ]	CGContext Reference
+-	[ ]	UIBarButtonItem
+-	[ ]	UIActivityViewController
+-	[ ]	UIViewController
+-	[ ]	Categories
+-	[ ]	plist iOS
+-	[ ]	Dynamically updating a UIStackView
+-	[ ]	Block
+-	[ ]	NSPredicate
+-	[ ]	Swift and Objective-C interoperability
+-	[ ]	UIFont
+-	[ ]	Create .ipa File to upload on appstore with Applicationloader
+-	[ ]	UIPheonix - easy, flexible, dynamic & highly scalable UI framework
+-	[ ]	Multicast Delegates
+-	[ ]	Load images async
+-	[ ]	ADDING A SWIFT BRIDGING HEADER
+-	[ ]	iOS - Implementation of XMPP with Robbie Hanson framework
+-	[ ]	Codable
+-	[ ]	UIFeedbackGenerator
+-	[ ]	UITableViewCell
+-	[ ]	Runtime in Objective-C
+-	[ ]	ModelPresentationStyles
+-	[ ]	Application rating/review request
+-	[ ]	Chain Blocks in a Queue (with MKBlockQueue)
+-	[ ]	Handle Multiple Environment using Macro
+-	[ ]	WCSessionDelegate
+-	[ ]	Configure Beacons with CoreBluetooth
+-	[ ]	CLLocation
+-	[ ]	Security
+-	[ ]	Profile with Instruments
+-	[ ]	UISegmentedControl
+-	[ ]	SqlCipher integration
+-	[ ]	Segues
+-	[ ]	EventKit
+-	[ ]	NSBundle
+-	[ ]	iOS Google Places API
+-	[ ]	Snapshot of UIView
+-	[ ]	FacebookSDK
+-	[ ]	Resizing UIImage
+-	[ ]	Navigation Bar
+-	[ ]	Cut a UIImage into a circle
+-	[ ]	Make selective UIView corners rounded
+-	[ ]	UUID (Universally Unique Identifier)
+-	[ ]	Size Classes and Adaptivity
+-	[ ]	Custom Keyboard
+-	[ ]	UI Testing
+-	[ ]	AirPrint tutorial in iOS
+-	[ ]	NSHTTPCookieStorage
+-	[ ]	UISlider
+-	[ ]	Healthkit
+-	[ ]	Concurrency
+-	[ ]	UIImagePickerController
+-	[ ]	In-App Purchase
+-	[ ]	iBeacon
+-	[ ]	UIButton
+-	[ ]	Deep Linking in iOS
+-	[ ]	NSData
+-	[ ]	AVPlayer and AVPlayerViewController
+-	[ ]	Realm
+-	[ ]	SWRevealViewController
+-	[ ]	WKWebView
+-	[ ]	CloudKit
+-	[ ]	AWS SDK
+-	[ ]	UISplitViewController
+-	[ ]	UISplitViewController
+-	[ ]	UIScrollView AutoLayout
+-	[ ]	IBOutlets
+-	[ ]	Size Classes and Adaptivity
+-	[ ]	AFNetworking
+-	[ ]	CTCallCenter
+-	[ ]	NSURL
+-	[ ]	DispatchGroup
+-	[ ]	UIControl - Event Handling with Blocks
+-	[ ]	Checking for Network Connectivity
+-	[ ]	AVSpeechSynthesizer
+-	[ ]	Localization
+-	[ ]	Core SpotLight in iOS
+-	[ ]	Carthage iOS Setup
+-	[ ]	CoreImage Filters
+-	[ ]	FCM Messaging in Swift
+-	[ ]	Create a Custom framework in iOS
+-	[ ]	App wide operations
+-	[ ]	AirDrop
+-	[ ]	SLComposeViewController
+-	[ ]	QR Code Scanner
+-	[ ]	StoreKit
+-	[ ]	App Submission Process
+-	[ ]	Basic text file I/O
+-	[ ]	UIStoryboard
+-	[ ]	Content Hugging/Content Compression in Autolayout
+-	[ ]	NSInvocation
+-	[ ]	UIRefreshControl TableView
+-	[ ]	Convert HTML to NSAttributed string and vice verse
+-	[ ]	Convert NSAttributedString to UIImage
+-	[ ]	UILabel text underlining
+-	[ ]	MPMediaPickerDelegate
+-	[ ]	Graph (Coreplot)
+-	[ ]	Set View Background
+-	[ ]	Contacts Framework
+-	[ ]	NSURLConnection
+-	[ ]	Code signing
+-	[ ]	Initialization idioms
+-	[ ]	UIDatePicker
+-	[ ]	Custom UITextField
+-	[ ]	MyLayout
+-	[ ]	UIKit Dynamics
+-	[ ]	Core Data
+-	[ ]	Extension for rich Push Notification - iOS 10.
+-	[ ]	Simulator Builds
+-	[ ]	GameCenter Leaderboards
+-	[ ]	Simulating Location Using GPX files iOS
+-	[ ]	Custom methods of selection of UITableViewCells
+-	[ ]	Custom methods of selection of UITableViewCells
+-	[ ]	OpenGL
+-	[ ]	NSArray
+-	[ ]	Core Motion
+-	[ ]	UIScrollView with StackView child
+-	[ ]	Simulator
+-	[ ]	iOS TTS
+-	[ ]	MKDistanceFormatter
+-	[ ]	MPVolumeView
+-	[ ]	Objective-C Associated Objects
+-	[ ]	Passing Data between View Controllers (with MessageBox-Concept)
+-	[ ]	CydiaSubstrate tweak
+-	[ ]	Create a video from images
+-	[ ]	UIKit Dynamics with UICollectionView
+-	[ ]	Cache online images
+-	[ ]	Using Image Aseets
+-	[ ]	FileHandle
+-	[ ]	NSUserActivity
+-	[ ]	Storyboard
+-	[ ]	Background Modes and Events
+-	[ ]	Rich Notifications
+-	[ ]	Creating an App ID
+-	[ ]	Swift: Changing the rootViewController in AppDelegate to present main or login/onboarding flow
+-	[ ]	UITextField Delegate
+-	[ ]	URLSession
+-	[ ]	Drag and Drop
+-	[ ]	how to use instrument tool in xcode ide
+-	[ ]	Game Center
+-	[ ]	Vision
+-	[ ]	ARKit
+-	[ ]	CoreML
+-	[ ]	NSUbiquitousKeyValueStore
+-	[ ]	UIViewControllerTransitionCoordinator
+-	[ ]	UITraitCollection
+-	[ ]	CKReference
+-	[ ]	CKFetchRecordsOperation
+-	[ ]	CKFetchRecordZoneChangesOperation
+-	[ ]	CKOperation
+-	[ ]	CKFetchDatabaseChangesOperation
+-	[ ]	UIAccessibility
+-	[ ]	MPPlayableContentManager
+-	[ ]	MKDirectionsRequest
+-	[ ]	Port Forwarding In Ios
+-	[ ]	Haptic feedback
+-	[ ]	WatchConnectivity
+-	[ ]	Multithreading and Grand Central Dispatch
+-	[ ]	USING TRAIT COLLECTIONS FOR AUTO LAYOUT AND SIZE CLASSES
+-	[ ]	UIStepper
+-	[ ]	UIStackView with UIScrollView, dynamic content size
+-	[ ]	Coding standard
+-	[ ]	bonjour communication
+-	[ ]	Video from url in UITableview with efficient loading
+-	[ ]	UIInterfaceOrientation
+-	[ ]	Embed additional languages in Xcode
+-	[ ]	watchkit
+-	[ ]	Example of how peer to peer notification sending would look.
+-	[ ]	VIP Architecture
+-	[ ]	SceneKit
+-	[ ]	VIPER Architecture
+-	[ ]	socket
+-	[ ]	Chromecast implementation in ios
+-	[ ]	UnsafePointer
+-	[ ]	UIKitDynamics
+-	[ ]	Mobiamo iOS SDK with Paymentwall’s advanced mobile payment
+-	[ ]	The PushKit framework provides the classes for your iOS apps to receive pushes from remote servers.
+-	[ ]	CallKit
+-	[ ]	UIDocumentInteractionController
+-	[ ]	Building Data Models in SWIFT and Objective-C
+-	[ ]	CoreAudio
+-	[ ]	PHLivePhoto
+-	[ ]	This topic should have definition of terms we gradually use while programming. like AppDelegate, frame, bound, singleton, ARC, etc.
+-	[ ]	Socket Implementation
+-	[ ]	background gps
+-	[ ]	NSSecure​Coding
+-	[ ]	NSScanner
+-	[ ]	UIViewController. showViewController example
+-	[ ]	Memory Management
+-	[ ]	UIActivity
+-	[ ]	MessageKit
+-	[ ]	NSOperation
+-	[ ]	MessageUI
+-	[ ]	UIPresentationController
+-	[ ]	Simple accordion view with Auto Layout
+-	[ ]	ContactsFramework (CNContactStore)
+-	[ ]	Bluetooth LE Devices Communication
+-	[ ]	HomeKit
+-	[ ]	UIPreviewInteraction
+-	[ ]	Video Encoding and Decoing
+-	[ ]	AVKit
+-	[ ]	Thread Management
+-	[ ]	UIContainerView
+-	[ ]	UIDynamics
+-	[ ]	SnapKit
+-	[ ]	How to Create a One-Size-Fits-All App for iOS: iOS 8’s Adaptive UI
+-	[ ]	UIGridView
+-	[ ]	UIApplicationDelegate
+-	[ ]	UIAccessibilityElement
+-	[ ]	UIAccessibilityContainer
+-	[ ]	MPMoviewPlayer Custom Controls
