@@ -2,7 +2,7 @@
 I'm live streaming my studying of StackOverflow's list of 'iOS Documentation' topics. M-F 8pm EST. Feel free to come join me. Code samples here as well as topics covered below.
 
 -	[x]	[Getting started with iOS](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Getting-Started-with-iOS)
--	[ ]	UILabel
+-	[x]	[UILabel](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/UILabel)
 -	[ ]	Auto Layout
 -	[ ]	Passing Data between View Controllers
 -	[ ]	UIColor
