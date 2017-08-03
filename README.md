@@ -1,6 +1,8 @@
 # STUDY iOS w/ Adam
 I'm live streaming my studying of StackOverflow's list of 'iOS Documentation' topics. M-F 8pm EST. Feel free to come join me. Code samples here as well as topics covered below.
 
+Here's the [Youtube Live](https://www.youtube.com/channel/UCd_xY3nvW8VwehHWzTAicHw/live)
+
 -	[x]	[Getting started with iOS](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Getting-Started-with-iOS)
 -	[x]	[UILabel](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/UILabel)
 - [x] [Drag and Drop 101](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Drag-and-Drop-Basics)
