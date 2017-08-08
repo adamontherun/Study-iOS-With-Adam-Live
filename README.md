@@ -6,6 +6,7 @@ Here's the [Youtube Live](https://www.youtube.com/channel/UCd_xY3nvW8VwehHWzTAic
 -	[x]	[Getting started with iOS](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Getting-Started-with-iOS)
 -	[x]	[UILabel](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/UILabel)
 - [x] [Drag and Drop 101](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Drag-and-Drop-Basics)
+-	[ ]	[UIStackView](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/UIStackView)
 -	[ ]	Auto Layout
 -	[ ]	Passing Data between View Controllers
 -	[ ]	UIColor
@@ -25,7 +26,6 @@ Here's the [Youtube Live](https://www.youtube.com/channel/UCd_xY3nvW8VwehHWzTAic
 -	[ ]	UIWebView
 -	[ ]	UIScrollView
 -	[ ]	NSDate
--	[ ]	UIStackView
 -	[ ]	NSNotificationCenter
 -	[ ]	CAAnimation
 -	[ ]	GCD (Grand Central Dispatch)
