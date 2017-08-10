@@ -7,6 +7,7 @@ Here's the [Youtube Live](https://www.youtube.com/channel/UCd_xY3nvW8VwehHWzTAic
 -	[x]	[UILabel](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/UILabel)
 - [x] [Drag and Drop 101](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Drag-and-Drop-Basics)
 - [x] [NSItemProvider to pass data for Drag and Drop](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/NSItemProviders-to-Pass-Data)
+- [x] [Placeholders for UITableView Drag and Drop](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/Placeholders-for-UITableView-Drag-and-Drop)
 -	[x]	[UIStackView](https://github.com/adamontherun/Study-iOS-With-Adam-Live/wiki/UIStackView)
 -	[ ]	Auto Layout
 -	[ ]	Passing Data between View Controllers
