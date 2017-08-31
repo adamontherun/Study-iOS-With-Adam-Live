@@ -11,6 +11,16 @@ class ActionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        
+//        guard
+//            let context = extensionContext,
+//           let extensionItem = context.inputItems.first as? NSExtensionItem
+//      
+//        else { return }
+//              let firstAttachments = extensionItem.attachments
+//              let contentItem = firstAttachments?.first as? NSItemProvider
+        
+        
         let textItem = extensionContext!.inputItems[0] as! NSExtensionItem
         let textItemProvider = textItem.attachments![0] as! NSItemProvider
         

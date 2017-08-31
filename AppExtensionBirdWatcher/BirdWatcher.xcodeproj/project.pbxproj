@@ -19,6 +19,10 @@
 		6619A6991F54E6B40083AAC5 /* BirdTranslator.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6619A68F1F54E6B40083AAC5 /* BirdTranslator.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6619A69E1F54EAF10083AAC5 /* BirdNameTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6619A69D1F54EAF10083AAC5 /* BirdNameTranslator.swift */; };
 		6619A69F1F54EBED0083AAC5 /* BirdKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6619A6751F50F5100083AAC5 /* BirdKit.framework */; };
+		66356F611F578B450032F60E /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66356F601F578B450032F60E /* ShareViewController.swift */; };
+		66356F641F578B450032F60E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66356F621F578B450032F60E /* MainInterface.storyboard */; };
+		66356F681F578B450032F60E /* BirdShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 66356F5E1F578B450032F60E /* BirdShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66356F6C1F578B590032F60E /* BirdKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6619A6751F50F5100083AAC5 /* BirdKit.framework */; };
 		663D84581F4FA11600717973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D84571F4FA11600717973 /* AppDelegate.swift */; };
 		663D845A1F4FA11600717973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D84591F4FA11600717973 /* ViewController.swift */; };
 		663D845D1F4FA11600717973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D845B1F4FA11600717973 /* Main.storyboard */; };
@@ -44,6 +48,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6619A68E1F54E6B40083AAC5;
 			remoteInfo = BirdTranslator;
+		};
+		66356F661F578B450032F60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663D844C1F4FA11600717973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66356F5D1F578B450032F60E;
+			remoteInfo = BirdShare;
 		};
 		663D84781F4FA15B00717973 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -72,6 +83,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				66356F681F578B450032F60E /* BirdShare.appex in Embed App Extensions */,
 				663D847A1F4FA15B00717973 /* Todays Birds.appex in Embed App Extensions */,
 				6619A6991F54E6B40083AAC5 /* BirdTranslator.appex in Embed App Extensions */,
 			);
@@ -92,6 +104,10 @@
 		6619A6941F54E6B40083AAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		6619A6961F54E6B40083AAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6619A69D1F54EAF10083AAC5 /* BirdNameTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNameTranslator.swift; sourceTree = "<group>"; };
+		66356F5E1F578B450032F60E /* BirdShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BirdShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		66356F601F578B450032F60E /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		66356F631F578B450032F60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		66356F651F578B450032F60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		663D84541F4FA11600717973 /* BirdWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663D84571F4FA11600717973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663D84591F4FA11600717973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +135,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6619A69F1F54EBED0083AAC5 /* BirdKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66356F5B1F578B450032F60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66356F6C1F578B590032F60E /* BirdKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +189,16 @@
 			path = BirdTranslator;
 			sourceTree = "<group>";
 		};
+		66356F5F1F578B450032F60E /* BirdShare */ = {
+			isa = PBXGroup;
+			children = (
+				66356F601F578B450032F60E /* ShareViewController.swift */,
+				66356F621F578B450032F60E /* MainInterface.storyboard */,
+				66356F651F578B450032F60E /* Info.plist */,
+			);
+			path = BirdShare;
+			sourceTree = "<group>";
+		};
 		663D844B1F4FA11600717973 = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +206,7 @@
 				663D84711F4FA15B00717973 /* Todays Birds */,
 				6619A6761F50F5100083AAC5 /* BirdKit */,
 				6619A6901F54E6B40083AAC5 /* BirdTranslator */,
+				66356F5F1F578B450032F60E /* BirdShare */,
 				663D846E1F4FA15B00717973 /* Frameworks */,
 				663D84551F4FA11600717973 /* Products */,
 			);
@@ -184,6 +219,7 @@
 				663D846D1F4FA15B00717973 /* Todays Birds.appex */,
 				6619A6751F50F5100083AAC5 /* BirdKit.framework */,
 				6619A68F1F54E6B40083AAC5 /* BirdTranslator.appex */,
+				66356F5E1F578B450032F60E /* BirdShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +304,23 @@
 			productReference = 6619A68F1F54E6B40083AAC5 /* BirdTranslator.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		66356F5D1F578B450032F60E /* BirdShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66356F6B1F578B450032F60E /* Build configuration list for PBXNativeTarget "BirdShare" */;
+			buildPhases = (
+				66356F5A1F578B450032F60E /* Sources */,
+				66356F5B1F578B450032F60E /* Frameworks */,
+				66356F5C1F578B450032F60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdShare;
+			productName = BirdShare;
+			productReference = 66356F5E1F578B450032F60E /* BirdShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		663D84531F4FA11600717973 /* BirdWatcher */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663D84661F4FA11600717973 /* Build configuration list for PBXNativeTarget "BirdWatcher" */;
@@ -284,6 +337,7 @@
 				663D84791F4FA15B00717973 /* PBXTargetDependency */,
 				6619A6821F50F6080083AAC5 /* PBXTargetDependency */,
 				6619A6981F54E6B40083AAC5 /* PBXTargetDependency */,
+				66356F671F578B450032F60E /* PBXTargetDependency */,
 			);
 			name = BirdWatcher;
 			productName = BirdWatcher;
@@ -326,6 +380,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					66356F5D1F578B450032F60E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					663D84531F4FA11600717973 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -353,6 +411,7 @@
 				663D846C1F4FA15B00717973 /* Todays Birds */,
 				6619A6741F50F50F0083AAC5 /* BirdKit */,
 				6619A68E1F54E6B40083AAC5 /* BirdTranslator */,
+				66356F5D1F578B450032F60E /* BirdShare */,
 			);
 		};
 /* End PBXProject section */
@@ -371,6 +430,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6619A6951F54E6B40083AAC5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66356F5C1F578B450032F60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66356F641F578B450032F60E /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +480,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		66356F5A1F578B450032F60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66356F611F578B450032F60E /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		663D84501F4FA11600717973 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,6 +518,11 @@
 			target = 6619A68E1F54E6B40083AAC5 /* BirdTranslator */;
 			targetProxy = 6619A6971F54E6B40083AAC5 /* PBXContainerItemProxy */;
 		};
+		66356F671F578B450032F60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66356F5D1F578B450032F60E /* BirdShare */;
+			targetProxy = 66356F661F578B450032F60E /* PBXContainerItemProxy */;
+		};
 		663D84791F4FA15B00717973 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 663D846C1F4FA15B00717973 /* Todays Birds */;
@@ -455,6 +535,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				6619A6941F54E6B40083AAC5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		66356F621F578B450032F60E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66356F631F578B450032F60E /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -562,6 +650,36 @@
 				INFOPLIST_FILE = BirdTranslator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamontherun.BirdWatcher.BirdTranslator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66356F691F578B450032F60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR4PP43778;
+				INFOPLIST_FILE = BirdShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamontherun.BirdWatcher.BirdShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66356F6A1F578B450032F60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR4PP43778;
+				INFOPLIST_FILE = BirdShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamontherun.BirdWatcher.BirdShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -755,6 +873,15 @@
 			buildConfigurations = (
 				6619A69A1F54E6B40083AAC5 /* Debug */,
 				6619A69B1F54E6B40083AAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66356F6B1F578B450032F60E /* Build configuration list for PBXNativeTarget "BirdShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66356F691F578B450032F60E /* Debug */,
+				66356F6A1F578B450032F60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
